@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Api\\ShopApp.Api.csproj": {}
+    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Api\\ShopApp.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApi.Data\\ShopApi.Data.csproj": {
+    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApi.Data\\ShopApi.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApi.Data\\ShopApi.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApi.Data\\ShopApi.Data.csproj",
         "projectName": "ShopApi.Data",
-        "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApi.Data\\ShopApi.Data.csproj",
+        "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApi.Data\\ShopApi.Data.csproj",
         "packagesPath": "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApi.Data\\obj\\",
+        "outputPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApi.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khalid Suleymanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj": {
-                "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj"
+              "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Api\\ShopApp.Api.csproj": {
+    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Api\\ShopApp.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Api\\ShopApp.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Api\\ShopApp.Api.csproj",
         "projectName": "ShopApp.Api",
-        "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Api\\ShopApp.Api.csproj",
+        "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Api\\ShopApp.Api.csproj",
         "packagesPath": "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Api\\obj\\",
+        "outputPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khalid Suleymanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -99,8 +99,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApi.Data\\ShopApi.Data.csproj": {
-                "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApi.Data\\ShopApi.Data.csproj"
+              "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Service\\ShopApp.Service.csproj": {
+                "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Service\\ShopApp.Service.csproj"
               }
             }
           }
@@ -115,10 +115,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "FluentValidation.AspNetCore": {
-              "target": "Package",
-              "version": "[11.3.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -153,14 +149,14 @@
         }
       }
     },
-    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj": {
+    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj",
         "projectName": "ShopApp.Core",
-        "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj",
+        "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj",
         "packagesPath": "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khalid Suleymanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -188,6 +184,75 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Service\\ShopApp.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Service\\ShopApp.Service.csproj",
+        "projectName": "ShopApp.Service",
+        "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Service\\ShopApp.Service.csproj",
+        "packagesPath": "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Khalid Suleymanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApi.Data\\ShopApi.Data.csproj": {
+                "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApi.Data\\ShopApi.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

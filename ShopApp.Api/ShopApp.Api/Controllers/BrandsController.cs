@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShopApi.Data;
-using ShopApp.Api.Dtos.BrandDtos;
+using ShopApp.Service.Dtos.BrandDtos;
 using ShopApp.Core.Entities;
 using ShopApp.Core.Repositories;
+using ShopApp.Service.Interfaces;
+using ShopApp.Service.Exceptions;
 
 namespace ShopApp.Api.Controllers
 {
@@ -12,86 +14,72 @@ namespace ShopApp.Api.Controllers
     [ApiController]
     public class BrandsController : ControllerBase
     {
-        private readonly ShopDbContext _context;
-        private readonly IBrandRepository _brandRepository;
-
-        public BrandsController(ShopDbContext context, IBrandRepository brandRepository)
+        private readonly IBrandService _brandService;
+        public BrandsController(IBrandService brandService)
         {
-            _context = context;
-            _brandRepository = brandRepository;
+            _brandService = brandService;
         }
-
         [HttpGet("{all}")]
-        public ActionResult<List<BrandGetAllItemDto>> GetAll () 
+        public ActionResult<List<BrandGetAllItemDto>> GetAll()
         {
-            var brandDtos = _brandRepository.GetQueryable(x=>x.Products.Count>0).Select(b => new BrandGetAllItemDto { Id = b.Id, Name=b.Name }).ToList();
-            return Ok(brandDtos);
+            return Ok(_brandService.GetAll());
         }
-
-
         [HttpGet("{id}")]
         public ActionResult<BrandGetDto> Get(int id)
         {
-            Brand brand = _brandRepository.Get(b => b.Id == id);
-            if (brand == null)
+            try
+            {
+                return Ok(_brandService.Get(id));
+            }
+            catch (NotFoundException e)
             {
                 return NotFound();
             }
-            BrandGetDto brandDto = new BrandGetDto
-            {
-                Name = brand.Name,
-                ProductsCount = _context.Products.Where(x=>x.BrandId==id).Count(),
-            };
-            return Ok(brandDto);
         }
-
         [HttpPost]
         [Route("")]
         public IActionResult Create(BrandCreateDto brandDto)
         {
-            if (_brandRepository.IsExist(x => x.Name == brandDto.Name))
+            try
             {
-                ModelState.AddModelError("Name", "Name is already taken");
+                var result = _brandService.Create(brandDto);
+                return StatusCode(201, result);
+            }
+            catch (EntityDuplicateException e)
+            {
+                ModelState.AddModelError("Name", e.Message);
                 return BadRequest(ModelState);
             }
-            Brand brand = new Brand
-            {
-                Name = brandDto.Name,
-            };
-            _brandRepository.Add(brand);
-            _brandRepository.Commit();
-            return StatusCode(201, new {Id=brand.Id}); 
         }
-
-
         [HttpPut("{id}")]
         public IActionResult Edit(int id, BrandEditDto brandDto)
         {
-            Brand brand = _brandRepository.Get(x => x.Id == id);
-            if (brand == null)
+            try
+            {
+                _brandService.Edit(id, brandDto);
+            }
+            catch (NotFoundException e)
             {
                 return NotFound();
             }
-            if (brand.Name != brandDto.Name && _brandRepository.IsExist(x=>x.Name==brandDto.Name))
+            catch (EntityDuplicateException e)
             {
-                ModelState.AddModelError("Name", "Name is already taken");
+                ModelState.AddModelError("Name", e.Message);
                 return BadRequest(ModelState);
             }
-            brand.Name = brandDto.Name;
-            _brandRepository.Commit();
             return NoContent();
         }
-
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            Brand brand = _brandRepository.Get(b => b.Id == id);
-            if (brand == null)
+            try
+            {
+                _brandService.Remove(id);
+            }
+            catch (NotFoundException e)
             {
                 return NotFound();
             }
-            _brandRepository.Remove(brand);
-            _brandRepository.Commit();
             return NoContent();
         }
     }

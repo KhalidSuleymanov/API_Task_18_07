@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj": {}
+    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj": {
+    "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj",
         "projectName": "ShopApp.Core",
-        "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj",
+        "projectPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Core\\ShopApp.Core.csproj",
         "packagesPath": "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Core\\obj\\",
+        "outputPath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Khalid Suleymanov\\AppData\\Roaming\\NuGet\\NuGet.Config",

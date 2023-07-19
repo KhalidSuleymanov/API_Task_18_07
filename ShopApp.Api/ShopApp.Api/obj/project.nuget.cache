@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "k0YSJ1UcO+d/JnZP25lzSH20K3YVXGkuF/6IBNCIcHsZSUuE66W/xhk7uhuBVnnnqlsAo22s6mqzgPndlDqVQQ==",
+  "dgSpecHash": "3i2i/795KWpSBqho6yrlV5sAEUVqPr8JoybIdjJ3UfINTVA7fDCf29Aa2S/81YroDewG4NnttdRcBkShyyBh9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\ShopApp.Api\\ShopApp.Api\\ShopApp.Api.csproj",
+  "projectFilePath": "C:\\Users\\Khalid Suleymanov\\Desktop\\API records\\API-TASK\\ShopApp\\API_Task_18_07\\ShopApp.Api\\ShopApp.Api\\ShopApp.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Khalid Suleymanov\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.20\\microsoft.entityframeworkcore.6.0.20.nupkg.sha512",
